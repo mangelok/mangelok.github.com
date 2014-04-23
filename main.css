@@ -1,0 +1,23 @@
+body {
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
+	margin-top:50px;
+	margin-left:200px;
+	margin-right:200px;
+	background-image:url("resources/background.png");}
+td {
+	vertical-align:top;
+}
+A:link {
+text-decoration: none;
+color: #FF6600;
+}
+
+A:visited {
+text-decoration: none;
+color: #FF6600;
+}
+
+A:hover {
+text-decoration: underline;
+color: #FF6600;
+}
