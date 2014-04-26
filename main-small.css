@@ -1,8 +1,8 @@
 body {
 	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
 	background-image:url("resources/background.png");
-	width: 80%;
-	padding-left: 10%;
+	width: 60%;
+	padding-left: 20%;
 	padding-top: 5%;
 
 }
@@ -38,15 +38,12 @@ color: #FF6600;
 
 #description
 {
-	float: left;
-	width: 60%;
+	width: 100%;
 }
 
 #images
 {
-	width: 35%;
-	float: right;
-	vertical-align: top;
+	display:none;
 }
 
 #navbar
