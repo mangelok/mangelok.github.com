@@ -23,5 +23,5 @@ function loadNavBar()
 	page = page.substring(0,page.length);
 	var navhtml = document.getElementById("menu");
 	navhtml.innerHTML = navhtml.innerHTML.replace("href=\""+page,"id=\"thisLink\" href=\"javascript: void(0)");
-	console.log(navhtml);
+	console.log("href=\""+page+" - replace - " + navhtml.innerHTML);
 }
