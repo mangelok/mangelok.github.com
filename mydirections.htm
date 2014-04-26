@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<script type="text/javascript" src="main-script.js"></script>
+
 		<meta charset="UTF-8">
   	<title>Michael Knight</title>
     <link rel='stylesheet' media='only screen and (max-width: 900px)' href='main-small.css' type="text/css">
     <link rel='stylesheet' media='only screen and (min-width: 901px)' href='main.css' type="text/css">
 		</head>
 
-	<body>
+	<body onload="loadNavBar()">
 		<div id="table">
 		  <div id="images">
 			<img alt="myDirections icon" class="img" src="resources/myDirections.png">
@@ -29,27 +31,7 @@
 			To visit the application page in BlackBerry World, click <a href=
 			"http://appworld.blackberry.com/webstore/content/35534889/?countrycode=CA&amp;lang=en">
 				here</a>.
-				<table id="navbar">
-				  <tr>
-					<td>
-					  <h2>
-						links
-					  </h2><a href="index.html">home</a><br>
-					  <a href="resume.pdf">résumé</a><br>
-					  <a href="mailto:m3knight@uwaterloo.ca">email</a><br>
-					  <a href="http://www.linkedin.com/in/mangelok">linkedin</a><br>
-					</td>
-					<td id="navbar-separator"></td>
-					<td>
-					  <h2>
-						projects
-					  </h2>myDirections<br>
-					  <a href="invoicer.htm">Invoicer</a><br>
-					  <a href="smd.htm">Super Mario Defense</a><br>
-					  <a href="ml.htm">Mario LOGO</a><br>
-					</td>
-				  </tr>
-				</table>
+					<div id="menu"/>
 				</div>
 			</div>
 		</body>

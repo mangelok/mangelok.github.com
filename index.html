@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<script type="text/javascript" src="main-script.js"></script>
 		<meta charset="UTF-8">
 		<title>Michael Knight</title>
 		<link rel='stylesheet' media='only screen and (max-width: 900px)' href='main-small.css' />
 		<link rel='stylesheet' media='only screen and (min-width: 901px)' href='main.css' />
 		</head>
-		<body>
+		<body onload="loadNavBar()">
 				<div id="table">
 					<div id="images">
 						<img alt="Picture of Michael Knight" class="img" src="resources/self.png">
@@ -15,25 +16,7 @@
 						<h1 id="title">Michael Knight</h1><br>
 						<h2>bio</h2>
 						I am currently a student in the Computer Science program at the University of Waterloo. I am passionate about mobile technologies and am excited to develop for all platforms. I commit the majority of my spare time to trying out the latest devices, working on my side projects, and playing piano.	
-						<table id="navbar">
-							<tr>
-								<td>
-									<h2>links</h2>
-									home<br>
-									<a href="resources/resume.pdf">résumé</a><br>
-									<a href="mailto:m3knight@uwaterloo.ca">email</a><br>
-									<a href="http://www.linkedin.com/in/mangelok">linkedin</a><br>
-								</td>
-								<td id="navbar-separator"></td>
-								<td>
-									<h2>projects</h2>
-									<a href="mydirections.htm">myDirections</a><br>
-									<a href="invoicer.htm">Invoicer</a><br>
-									<a href="smd.htm">Super Mario Defense</a><br>
-									<a href="ml.htm">Mario LOGO</a><br>
-								</td>
-							</tr>
-						</table>
+						<div id="menu"></div>
 					</div>
 				</div>
 			</body>
