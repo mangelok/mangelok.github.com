@@ -6,7 +6,7 @@ function loadNavBar()
 	var xmlhttp = new XMLHttpRequest();
 	xmlhttp.open("GET", "navbar.html", true);
 	xmlhttp.onreadystatechange = function() {
-		if (this.readyState!==4 || this.status!==200){
+		if (this.status!==200){
 			console.log("Response: " + this.readyState + " " + this.status);
 			return;
 		}
