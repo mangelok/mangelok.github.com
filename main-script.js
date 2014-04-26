@@ -19,9 +19,12 @@ function loadNavBar()
 	}
 	
 	var path = window.location.pathname;
+	console.log("MS: " + path);
 	var page = path.split("/").pop();
+	console.log("MS: " + page);
 	page = page.substring(0,page.length);
-	var navhtml = document.getElementById("menu");
-	navhtml.innerHTML = navhtml.innerHTML.replace("href=\""+page,"id=\"thisLink\" href=\"javascript: void(0)");
-	console.log("href=\""+page+" - replace - " + navhtml.innerHTML);
+	console.log("MS: " + page);
+//  var navhtml = document.getElementById("menu");
+//	navhtml.innerHTML = navhtml.innerHTML.replace("href=\""+page,"id=\"thisLink\" href=\"javascript: void(0)");
+
 }
