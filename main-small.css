@@ -39,6 +39,12 @@ text-decoration: underline;
 color: #FF6600;
 }
 
+#thisLink
+{
+	color: #000000;
+	pointer-events: none;
+}
+
 #description
 {
 	width: 100%;

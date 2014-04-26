@@ -10,7 +10,6 @@ function loadNavBar()
 			console.log("Response: " + this.readyState + " " + this.status);
 			return;
 		}
-		console.log("Response: " + this.responseText);
 		document.getElementById('menu').innerHTML = this.responseText;	
 	}
 	try {
@@ -18,4 +17,10 @@ function loadNavBar()
 	} catch (exception){
 		console.log("Caught error: " + exception.message);
 	}
+	
+	var path = window.location.pathname;
+	var page = path.split("/").pop();
+	page = page.substring(0,page.length);
+	var navhtml = document.getElementById("menu");
+	navhtml.innerHTML = navhtml.innerHTML.replace("href=\""+page,"id=\"thisLink\" href=\"javascript: void(0)");
 }
