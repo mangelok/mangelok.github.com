@@ -55,3 +55,7 @@ color: #FF6600;
 {
 	clear:both;
 }
+
+#navbar-separator{
+	width: 200px;
+}
