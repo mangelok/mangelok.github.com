@@ -1,12 +1,10 @@
 body {
 	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;	
-	background-image:url("resources/background.png");
-	width: 80%;
-	padding-left: 10%;
-	padding-top: 5%;
+	background-color: #111111;
+	width: 100%;
     font-size: 1em; 
     line-height:1.2;
-
+	color: #FFFFFF
 }
 
 h1 {
@@ -25,43 +23,52 @@ td {
 
 A:link {
 text-decoration: none;
-color: #FF6600;
+color: #FFFFFF;
 }
 
 A:visited {
 text-decoration: none;
-color: #FF6600;
+color: #AAAAAA;
 }
 
 A:hover {
 text-decoration: underline;
-color: #FF6600;
-}
-
-#thisLink
-{
-	color: #000000;
-	pointer-events: none;
+color: #AAAAAA;
 }
 
 #description
 {
-	float: left;
-	width: 60%;
+    position: absolute;
+	margin-top: 5%;
+	top: 8%;
+	left: 20%;
+	width: 40%;
 }	
 
+#title
+{
+    position: absolute;
+	top: 10%;
+	left: 20%;
+
+}
 #images
 {
-	width: 35%;
-	float: right;
-	vertical-align: top;
+    position: absolute;
+	top: 12%;
+	left: 65%;
 }
 
 #navbar
 {
-	clear:both;
+	margin-top: 5%;
 }
 
-#navbar-separator{
-	width: 200px;
+#navbar-table
+{
+	width: 100%
+}
+
+.navbar-col{
+	width: 50%
 }

@@ -4,19 +4,32 @@
 		<script type="text/javascript" src="main-script.js"></script>
 		<meta charset="UTF-8">
 		<title>Michael Knight</title>
-		<link rel='stylesheet' media='only screen and (max-width: 900px)' href='main-small.css' />
+		<link rel='stylesheet' media='only screen and (max-width: 900px)' href='mainsmall.css' />
 		<link rel='stylesheet' media='only screen and (min-width: 901px)' href='main.css' />
 		</head>
-		<body onload="loadNavBar()">
-				<div id="table">
+		<body>
+				<div>
 					<div id="images">
 						<img alt="Picture of Michael Knight" class="img" src="resources/self.png">
 					</div>
+					<h1 id="title">Michael Knight</h1><br>
 					<div id="description">
-						<h1 id="title">Michael Knight</h1><br>
-						<h2>bio</h2>
-						I am currently a student in the Computer Science program at the University of Waterloo. I am passionate about mobile technologies and am excited to develop for all platforms. I commit the majority of my spare time to trying out the latest devices, working on my side projects, and playing piano.	
-						<div id="menu"></div>
+						<h2 class="section">bio</h2>
+						I am currently a student in the Computer Science program at the University of Waterloo. During my previous internships at NVIDIA and BlackBerry, I specialized in implementing user experiences for mobile products, but I always look forward to trying something different and learning new, exciting things.<br><br>Currently looking for an exciting project to work on in Spring 2015 - let me know if you think I would be a good fit for your team!
+						<h2 id='navbar'>links</h2>
+						<table id='navbar-table' class="section">
+						<tr>
+							<td class='navbar-col'>
+								<a href='mailto:m3knight@uwaterloo.ca'>email</a>
+							</td>
+							<td class='navbar-col'>
+								<a href='resources/resume.pdf'>résumé</a>
+							</td>
+							<td>
+								<a href='http://www.linkedin.com/in/mangelok'>linkedin</a>
+							</td>
+						</tr>
+						</table>
 					</div>
 				</div>
 			</body>
