@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Set Badge test</title>
+  </head>
+  <body>
+    Set Badge
+    <script>
+        setTimeout(function()
+        {
+            window.navigator.getTiles().then(
+                function(value){
+                    value[0].setBadge(5);
+                });
+        }, 300);
+    </script>
+  </body>
+</html>
