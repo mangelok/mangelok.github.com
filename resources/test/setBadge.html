@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Set Badge test</title>
+    <title>PinTest</title>
   </head>
   <body>
     Set Badge
     <script>
-        setTimeout(function()
+        var badgeCount = 1;
+        setInterval(function()
         {
             window.navigator.getTiles().then(
                 function(value){
-                    value[0].setBadge(5);
+                    value[0].setBadge(badgeCount++);
                 });
         }, 300);
     </script>

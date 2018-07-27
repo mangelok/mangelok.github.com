@@ -4,12 +4,12 @@
     <title>PinTest</title>
   </head>
   <body>
-    Pinning
+    Get tiles
     <script>
-        setTimeout(function()
+        setInterval(function()
         {
-            window.external.pinPage();
-        }, 1000);
+            window.navigator.getTiles();
+        }, 300);
     </script>
   </body>
 </html>
